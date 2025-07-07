@@ -60,6 +60,7 @@ export default function CareDashboard() {
             <div className="w-12 h-12 bg-gradient-to-r from-[#9E79B9] to-[#B899D1] rounded-full flex items-center justify-center md:w-16 md:h-16">
               <Heart className="text-white" size={24} />
             </div>
+            
           </div>
           
           <h1 className="text-2xl font-bold text-[#9E79B9] mb-3 font-mukta leading-tight md:text-3xl lg:text-4xl md:mb-6">
