@@ -53,7 +53,7 @@ export default function CareDashboard() {
     <div className="min-h-screen bg-gradient-to-br from-[#FFF4F4] via-[#FFF8F8] to-[#F8F4FF] w-full max-w-sm mx-auto md:max-w-4xl lg:max-w-6xl">
       <Navbar />
       
-      <div className="pt-8 pb-32 px-6 md:px-12 lg:px-20 md:pt-12 md:pb-40">
+     <div className="pt-8 pb-32 px-6 md:px-12 lg:px-20 md:pt-12 md:pb-40">
         {/* Enhanced Header */}
         <div className="text-center mb-10 md:mb-16">
           <div className="flex items-center justify-center gap-2 mb-4 md:mb-8">

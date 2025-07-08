@@ -1,14 +1,16 @@
 import { Baby, HomeIcon } from "lucide-react";
 import { BookText , Smile , Heart } from "lucide-react";
-
+import Link from "next/link";
 export default function Downbar() {
   return (
     <footer className="fixed bottom-0 left-0 right-0 bg-[#9E79B9] h-[80px] rounded-t-3xl shadow-md flex justify-around items-center px-4 z-50 w-full max-w-sm mx-auto md:max-w-4xl lg:max-w-6xl md:h-[90px] lg:h-[100px]">
       {/* Home */}
+      <Link href="/Care-journey">
       <div className="flex flex-col items-center text-white text-xs md:text-sm lg:text-base cursor-pointer hover:scale-105 transition-transform duration-200">
 <HomeIcon className="w-6 h-6 md:w-7 md:h-7 lg:w-8 lg:h-8" />
         <span className="mt-1 font-noto">होम</span>
       </div>
+      </Link>
 
       {/* Care */}
       <div className="flex flex-col items-center text-white text-xs md:text-sm lg:text-base cursor-pointer hover:scale-105 transition-transform duration-200">
