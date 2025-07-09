@@ -34,10 +34,12 @@ export default function Downbar() {
       </div>
 
       {/* Didi Contact */}
+      <Link href="/didi">
       <div className="flex flex-col items-center text-white text-xs md:text-sm lg:text-base cursor-pointer hover:scale-105 transition-transform duration-200">
        <Smile className="w-6 h-6 md:w-7 md:h-7 lg:w-8 lg:h-8" />
         <span className="mt-1 font-noto">दीदी</span>
       </div>
+      </Link>
     </footer>
   );
 }
