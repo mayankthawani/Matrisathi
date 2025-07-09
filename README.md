@@ -1,4 +1,4 @@
-# 🌸 मातृ-सेवा | Matru-Seva – A Pregnancy Care App for Rural Women
+# 🌸 मातृ-सेवा | Matrisathi – A Pregnancy Care App for Rural Women
 
 **माँ की देखभाल अब हर गाँव में आसान।**  
 A mobile-first web application designed to provide pregnancy care, nutrition tips, safe delivery guidance, and Anganwadi support to women in rural India, all in Hindi.
@@ -42,5 +42,5 @@ A mobile-first web application designed to provide pregnancy care, nutrition tip
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/your-username/matru-seva.git
-cd matru-seva
+git clone https://github.com/your-username/Matrisathi.git
+cd Matrisathi
