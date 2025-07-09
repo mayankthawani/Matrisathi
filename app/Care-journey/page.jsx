@@ -1,53 +1,65 @@
 "use client";
 
 import { Card, CardContent } from "@/components/ui/card";
-import { Calendar, Hospital, Apple, Baby, ChevronRight, Heart } from "lucide-react";
+import { Calendar, Phone, Hospital, Apple, Baby, ChevronRight, Heart } from "lucide-react";
 import Downbar from "@/components/Downbar"
 import Navbar from "@/components/Navbar";
 
 export default function CareDashboard() {
-  const careOptions = [
-    {
-      id: 'monthly-tracker',
-      title: 'मासिक ट्रैकर',
-      description: 'गर्भावस्था की निगरानी',
-      icon: Calendar,
-      href: '/iec',
-      gradient: 'from-pink-400 to-purple-500',
-      bgGradient: 'from-pink-50 to-purple-50',
-      borderColor: 'border-pink-200'
-    },
-    {
-      id: 'birth-plan',
-      title: 'प्रसव योजना',
-      description: 'सुरक्षित प्रसव की तैयारी',
-      icon: Hospital,
-      href: '/birth-plan',
-      gradient: 'from-blue-400 to-indigo-500',
-      bgGradient: 'from-blue-50 to-indigo-50',
-      borderColor: 'border-blue-200'
-    },
-    {
-      id: 'nutrition',
-      title: 'पोषण सुझाव',
-      description: 'स्वस्थ आहार की जानकारी',
-      icon: Apple,
-      href: '/nutrition',
-      gradient: 'from-green-400 to-emerald-500',
-      bgGradient: 'from-green-50 to-emerald-50',
-      borderColor: 'border-green-200'
-    },
-    {
-      id: 'baby-care',
-      title: 'बच्चे की देखभाल',
-      description: 'नवजात की पूर्ण देखभाल',
-      icon: Baby,
-      href: '/pnc',
-      gradient: 'from-orange-400 to-red-500',
-      bgGradient: 'from-orange-50 to-red-50',
-      borderColor: 'border-orange-200'
-    }
-  ];
+ const careOptions = [
+  {
+    id: 'monthly-tracker',
+    title: 'मासिक ट्रैकर',
+    description: 'गर्भावस्था की निगरानी',
+    icon: Calendar,
+    href: '/iec',
+    gradient: 'from-pink-400 to-purple-500',
+    bgGradient: 'from-pink-50 to-purple-50',
+    borderColor: 'border-pink-200'
+  },
+  {
+    id: 'birth-plan',
+    title: 'प्रसव योजना',
+    description: 'सुरक्षित प्रसव की तैयारी',
+    icon: Hospital,
+    href: '/birth-plan',
+    gradient: 'from-blue-400 to-indigo-500',
+    bgGradient: 'from-blue-50 to-indigo-50',
+    borderColor: 'border-blue-200'
+  },
+  {
+    id: 'nutrition',
+    title: 'पोषण सुझाव',
+    description: 'स्वस्थ आहार की जानकारी',
+    icon: Apple,
+    href: '/nutrition',
+    gradient: 'from-green-400 to-emerald-500',
+    bgGradient: 'from-green-50 to-emerald-50',
+    borderColor: 'border-green-200'
+  },
+  {
+    id: 'baby-care',
+    title: 'बच्चे की देखभाल',
+    description: 'नवजात की पूर्ण देखभाल',
+    icon: Baby,
+    href: '/pnc',
+    gradient: 'from-orange-400 to-red-500',
+    bgGradient: 'from-orange-50 to-red-50',
+    borderColor: 'border-orange-200'
+  },
+  {
+    id: 'anganwadi-contact',
+    title: 'आंगनवाड़ी नंबर',
+    description: 'नजदीकी आंगनवाड़ी से संपर्क करें',
+    icon: Phone, // You can use Lucide’s Phone or Contact icon here
+    href: '/anganwadi',
+    gradient: 'from-teal-400 to-cyan-500',
+    bgGradient: 'from-teal-50 to-cyan-50',
+    borderColor: 'border-teal-200'
+  }
+];
+
+
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#FFF4F4] via-[#FFF8F8] to-[#F8F4FF] w-full max-w-sm mx-auto md:max-w-4xl lg:max-w-6xl">

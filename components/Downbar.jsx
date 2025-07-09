@@ -13,16 +13,20 @@ export default function Downbar() {
       </Link>
 
       {/* Care */}
+      <Link href="/iec">
       <div className="flex flex-col items-center text-white text-xs md:text-sm lg:text-base cursor-pointer hover:scale-105 transition-transform duration-200">
         <Heart className="w-6 h-6 md:w-7 md:h-7 lg:w-8 lg:h-8" />
         <span className="mt-1 font-noto">देखभाल</span>
       </div>
+      </Link>
 
       {/* Knowledge */}
+      <Link href="/birth-plan">
       <div className="flex flex-col items-center text-white text-xs md:text-sm lg:text-base cursor-pointer hover:scale-105 transition-transform duration-200">
         <BookText className="w-6 h-6 md:w-7 md:h-7 lg:w-8 lg:h-8" />
         <span className="mt-1 font-noto">जानकारी</span>
       </div>
+      </Link>
 
       {/* Central Baby Icon */}
       <div className="relative -top-8 bg-[#D67D93] w-16 h-16 rounded-full flex items-center justify-center shadow-lg border-[4px] border-[#FFF4F4] md:-top-10 md:w-20 md:h-20 lg:-top-12 lg:w-24 lg:h-24 cursor-pointer hover:scale-110 transition-transform duration-300">
