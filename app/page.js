@@ -165,7 +165,7 @@ export default function LandingPage() {
                 ))}
               </div>
               <p className="text-gray-700 italic mb-4 text-sm leading-relaxed font-noto md:text-lg lg:text-xl md:mb-8">
-                "मातृसाथी के कारण मेरी गर्भावस्था बहुत आसान रही। सभी जानकारी समय पर मिली और डॉक्टर की सलाह भी।"
+                &ldquo;मातृसाथी के कारण मेरी गर्भावस्था बहुत आसान रही। सभी जानकारी समय पर मिली और डॉक्टर की सलाह भी।&rdquo;
               </p>
               <div className="flex items-center gap-3 md:gap-6">
                 <div className="w-10 h-10 bg-gradient-to-br from-purple-400 to-pink-400 rounded-full flex items-center justify-center md:w-16 md:h-16">
